@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/aboutus.dart';
 import 'package:flutter_application_1/chatscreen.dart';
+import 'package:flutter_application_1/consult.dart';
 import 'package:flutter_application_1/helpsupport.dart';
+import 'package:flutter_application_1/myconsulation.dart';
 import 'package:flutter_application_1/notification.dart';
+import 'package:flutter_application_1/returnpolicy.dart';
+import 'package:flutter_application_1/termsandconditions.dart';
+import 'package:flutter_application_1/videoconsultation.dart';
 import 'package:flutter_application_1/view/addmoney.dart';
 import 'package:flutter_application_1/view/address.dart';
 import 'package:flutter_application_1/view/cartpage.dart';
@@ -57,7 +63,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  MissedPillsScreen(),
+      home:  MyConsultationsScreen(),
     );
   }
 }
