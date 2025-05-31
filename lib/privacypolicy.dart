@@ -22,7 +22,7 @@ class Privacypolicyscreen extends StatelessWidget {
             ),
         ),
         title: const Text(
-          'Terms & Conditions',
+          'Privacy policy',
           style: TextStyle(
             color: Color(0xFF000F3C),
             fontWeight: FontWeight.w600,
